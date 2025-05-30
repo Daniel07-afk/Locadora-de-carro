@@ -15,7 +15,7 @@ print(f'Olá,{nome}! Estamos felizes em tê-lo conosco.')
 mostrar_linha()
 
 carro = input('Digite qual carro deseja alugar: (1-BMW | 2-Mustang | 3-HB20 | 4-Fusca | 5-Civic | 0-sair):')
-
+mostrar_linha()
 if carro == 'BMW':
     print(f'Sr(a). {nome}, você escolheu um ótimo carro! da marca {carro}')
 elif carro == 'Mustang':
